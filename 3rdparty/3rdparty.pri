@@ -5,7 +5,7 @@ DEPENDPATH += $$PWD/hiredis
 HEADERS += $$PWD/hiredis/read.h \
            $$PWD/hiredis/sds.h \
            $$PWD/hiredis/alloc.h \
-           $$PWD/hiredis/sdcalloc.h \
+           # $$PWD/hiredis/sdcalloc.h \
            $$PWD/crc16.h \
 
 

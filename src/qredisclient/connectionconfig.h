@@ -1,6 +1,7 @@
 #pragma once
 #include <QJsonObject>
 #include <QList>
+#include <QSet>
 #include <QSslCertificate>
 #include <QString>
 #include <QVariantHash>
