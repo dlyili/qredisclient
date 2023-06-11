@@ -5,8 +5,10 @@ TARGET = qredisclient
 
 include($$PWD/qredisclient.pri)
 
-isEmpty(DESTDIR) {
-    DESTDIR = $$PWD
+CONFIG(debug,debug|release){
+    DESTDIR = $$absolute_path($${_PRO_FILE_PWD_}/../x64/Debug/)
+} else {
+    DESTDIR = $$absolute_path($${_PRO_FILE_PWD_}/../x64/Release/)
 }
 
 OBJECTS_DIR = $$DESTDIR/obj
